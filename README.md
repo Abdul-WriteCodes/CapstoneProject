@@ -1,10 +1,8 @@
 
 
 # **Sentiment Analyis**
-### This project builds a sentiment classification model using IMDB movie reviews, cleaned and vectorized into a machine learning pipeline. 
+This project builds a sentiment classification model using IMDB movie reviews, cleaned and vectorized into a machine learning pipeline. 
 The model was trained using Stochastic Gradient Descent (SGD) with log_loss and Logistic Regression evaluated on test data.
-
----
 <p align="center">
 	<img src="assets/Image.png" alt="Image" style="width:100%; max-width:800px; "/>
 </p>
