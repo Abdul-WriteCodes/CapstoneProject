@@ -6,7 +6,7 @@ The model was trained using Stochastic Gradient Descent (SGD) with log_loss and 
 
 ---
 <p align="center">
-	<img src="assets/captai-logo.png" alt="CaptAI Logo" style="width:100%; max-width:800px; "/>
+	<img src="assets/Image.png" alt="Image" style="width:100%; max-width:800px; "/>
 </p>
 ---
 Model Overview
