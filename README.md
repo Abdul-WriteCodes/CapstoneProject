@@ -22,6 +22,8 @@ The model was trained using **Stochastic Gradient Descent (SGD)** with `log_loss
 
 ## ☁️ Word Cloud Visualization of IMDb Text Reviews
 
+The word cloud illustrate the recurring words in the text data which was analyzed
+
 <p align="center">
 	<img src="assets/word_cloud.png" alt="word_cloud" style="width:100%; max-width:800px;" />
 </p>
@@ -29,6 +31,8 @@ The model was trained using **Stochastic Gradient Descent (SGD)** with `log_loss
 ---
 
 ## 📊 Evaluation Result
+
+The high accuracy scores from both 5-fold cross-validation and the test set indicate that the model not only learned the underlying patterns in the training data effectively, but also generalizes well to unseen data.
 
 | Metric                    | SGDClassifier | LogisticRegression |
 |---------------------------|---------------|--------------------|
@@ -38,6 +42,7 @@ The model was trained using **Stochastic Gradient Descent (SGD)** with `log_loss
 ---
 
 ## 📋 Classification Report
+The classification report presents key evaluation metrics — precision, recall, F1-score, and accuracy — that measure the model’s performance in predicting positive and negative sentiment labels from the dataset
 
 <p align="center">
 	<img src="assets/Classification Report.png" alt="Classification Report" style="width:100%; max-width:800px;" />
@@ -46,7 +51,7 @@ The model was trained using **Stochastic Gradient Descent (SGD)** with `log_loss
 ---
 
 ## 🔢 Confusion Matrix
-
+The confusion matrix displays the count of true positives, true negatives, false positives, and false negatives, giving insight into how well the model is classifying each class
 <p align="center">
 	<img src="assets/Confusion_Matrix.png" alt="Confusion_Matrix" style="width:100%; max-width:800px;" />
 </p>
@@ -54,7 +59,7 @@ The model was trained using **Stochastic Gradient Descent (SGD)** with `log_loss
 ---
 
 ## 📈 ROC Curve
-
+AUC values closer to 1.0 suggest the model can correctly rank positive instances higher than negative ones across a wide range of thresholds, reflecting robust classification performance
 <p align="center">
 	<img src="assets/ROC_Curve.png" alt="ROC_Curve" style="width:100%; max-width:800px;" />
 </p>
@@ -63,6 +68,7 @@ The model was trained using **Stochastic Gradient Descent (SGD)** with `log_loss
 
 ## 🎯 Precision-Recall Curve
 
+The high AUC score indicates that the model achieves a strong trade-off between precision and recall, demonstrating effective discrimination between positive and negative reviews
 <p align="center">
 	<img src="assets/Precision_Recall.png" alt="Precision_Recall" style="width:100%; max-width:800px;" />
 </p>
