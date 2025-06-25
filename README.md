@@ -19,7 +19,7 @@ The model was trained using Stochastic Gradient Descent (SGD) with log_loss and 
 
 
 ---
-###**Word Cloud Visualization of the IMDb Text reviews**
+##**Word Cloud Visualization of the IMDb Text reviews**
 <p align="center">
 	<img src="assets/word_cloud.png" alt="word_cloud" style="width:100%; max-width:800px; "/>
 </p>
